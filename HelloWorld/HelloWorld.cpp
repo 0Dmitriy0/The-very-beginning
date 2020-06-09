@@ -19,7 +19,7 @@ int main(){
     cout << "Like you? -> ";
     getline(cin, like);
 
-    for(int _Good = 1; _Good > Badly; _Good++){
+    if (int _Good = 1, _Good > Badly, _Good++){
         Good = _Good;
         cout << "It's good" << endl;
         cout << "But I need to go" << endl;
@@ -28,7 +28,7 @@ int main(){
 
         return 0;
     }
-    for (int _Badly = 0; _Badly < Good; _Badly++){
+    if (int _Badly = 0, _Badly < Good, _Badly++){
         Badly = _Badly;
         cout << "This is bad" << endl;
         cout << "I'm sorry but I need to leave" << endl;
