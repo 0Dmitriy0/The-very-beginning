@@ -13,10 +13,10 @@ int main(){
 	 cout << "What is your name? -> ";
 	 getline(cin, name);
 	 cout << "Hello " << name << endl;
-	 cout << "|Good or Badly|" << endl;
-	 cout << "|true    false|" << endl;
-	 cout << "Like you? -> ";
+	 cout << "But I need to go" << endl;
+	 cout << "Good bye " << name << endl;
 	 getline(cin, like);
+	
 	/*
 	 if (int _Good = 1, _Good > Badly, _Good++){
 		  Good = _Good;
