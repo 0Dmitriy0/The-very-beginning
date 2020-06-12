@@ -1,3 +1,5 @@
+//! Project executor DDC.
+
 #include <iostream>
 #include <string>
 
