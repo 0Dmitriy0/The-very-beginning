@@ -1,3 +1,5 @@
+//! Project executor DDC.
+
 #include <iostream>
 
 using namespace std;
