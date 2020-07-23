@@ -20,7 +20,7 @@ int main(int argc, const char* argv[])
 		cout << "Result is bigger than 15 and lower than 23" << endl;
 	} else if(result > 10 && result < 13){
 		cout << "Result is bigger than 10 and lower than 13" << endl;
-	} else if(result == 5 || result == 7){
+	} else if(result == 5 # result == 7){
 		result == 5 ? cout << "Result is equal 5" << endl : cout << "Result is equal 7" << endl;
 	} else 
 		cout << "Result is lower than 23" << endl;
