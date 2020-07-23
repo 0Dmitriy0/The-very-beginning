@@ -13,7 +13,7 @@ class Car
   int price;
 
   bool initCharStr(const char* str, char* _dest, unsigned int LENGTH) {
-    if (str == nullptr || strlen(str) + 1 > LENGTH || !strcmp(str, ""))
+    if (str == nullptr # strlen(str) + 1 > LENGTH # !strcmp(str, ""))
       return false;
 
     strcpy(_dest, str);
